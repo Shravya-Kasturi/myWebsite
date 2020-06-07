@@ -1,0 +1,66 @@
+export const colors = {
+    TRANSPARENT: 'transparent',
+    BLACK: '#000000',
+    WHITE: '#FFFFFF',
+    SILVER: '#BEBEBE',
+    MISCHKA: '#E5E4E6',
+    BLUE: {
+      MARGUERITE_BLUE: '#835AAC',
+      LIGHT_SKY_BLUE: '#99A6FF',
+      DARK_NAVY_BLUE: '#283046',
+      MIDNIGHT_EXPRESS: '#1C2334',
+      BAHAMA_BLUE: '#26557E',
+      CYPRUS_BLUE: '#143055',
+      GULF_BLUE: '#33425B',
+      DARK_PRUSSIAN_BLUE: '#002854',
+      PRUSSIAN_BLUE: '#00437F',
+      EGYPTIAN_BLUE: '#0D47A1',
+      SLATE_BLUE: '#6558CB',
+      BLUE_BELL: '#918BC6',
+      COBALT_BLUE: '#003CA5',
+      MIDNIGHT_BLUE: '#153375',
+      BLUE_STONE: '#123E66',
+      PELOROUS_BLUE: '#2579AA',
+      NAVY_BLUE: '#006BCC',
+      ROYAL_BLUE: '#3E6BD6',
+      CORNFLOWER_BLUE: '#4582F5',
+      DODGER_BLUE: '#428AF8',
+      MAYA_BLUE: '#4BABFF',
+      MALIBU_BLUE: '#5BB8E3',
+      PALE_TURQOUOISE_BLUE: '#C6F0F2',
+      REGENT_ST_BLUE: '#8dc8d6',
+      COSMIC_LATTE: '#EFFCF7'
+    },
+    GREY: {
+      BLACK_RUSSIAN: '#0A0A0B',
+      BRIGHT_GREY: '#5A5B60',
+      LIGHT_GRAY: '#D3D3D3',
+    },
+    RED: {
+      FIRE_ENGINE_RED: '#D81120',
+      TORCH_RED: '#F8262F',
+      ALIZARIN_RED: '#E62F2D',
+      GERALDINE_RED: '#e67575',
+      SALMON_RED: '#F57373'
+    },
+    YELLOW: {
+      CARROT_ORANGE: '#EFA41D',
+      TANGERINE_YELLOW: '#FFCC00',
+      MOON_YELLOW: '#F3C123',
+      LEMON: '#FFE81E'
+    },
+    ORANGE: {
+      DEEP_ORANGE: '#E24C00',
+      TANGERINE_ORANGE: '#D69500',
+      HITPINK_ORANGE: '#FFB26C'
+    },
+    GREEN: {
+      KEPPEL_GREEN: '#56B487',
+      PASTEL_GREEN: '#6ADB65',
+      SUCCESS_GREEN: '#00C851',
+      SUCCESS_DARK_GREEN: '#007E33',
+    },
+  };
+  
+  export const topMenuHeight = 0;
+  

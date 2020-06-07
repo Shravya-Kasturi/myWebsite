@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.main-section {
+    background-image: url('../../../assets/home2.png');
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .work-section {
+    background-color: rgb(26,26,43);
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+.nav-div {
+  background-color: rgb(130,133,215);
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  display: flex;
+  padding: 2;
+  position: relative;
+  list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+// p {
+//   border-right: solid 3px rgba(130,133,215);
+//   white-space: nowrap;
+//   overflow: hidden;    
+//   font-family: 'Source Code Pro', monospace;  
+//   font-size: 28px;
+//   color: rgba(130,133,215);
+//   text-align: center;
+//   align-items: center;
+//   align-content: center;
+// }
+
+// /* Animation */
+// p {
+//   animation: animated-text 2s steps(29,end) 1s 1 normal both,
+//              animated-cursor 600ms steps(29,end) ;
+// }
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 300px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(130,133,215);}
+  to{border-right-color: transparent;}
+}
+
+.nav-head:hover {
+  background-color: rgb(78,79,129) !important;
+  border-radius: 5px 5px 5px 5px;
+  z-index: -2;
+  box-shadow:  0 3px 0 #1a1a1f;
+}
+
+.menu-item:hover {
+  color: white;
+}
+
+.menu-item {
+  color: rgb(130,133,215);
+    font-size: medium;
+    font-weight:normal;
+    font-family:'Open Sans', sans-serif;
+}
+
+.name-text {
+  font-size: 2rem;
+  font-family:'Open Sans', sans-serif;
+  margin-left: 7rem;
+  text-align: center;
+  align-content: center;
+}
+
+.work-experience {
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 2rem;
+  font-weight:lighter;
+  color: white;
+  text-align: center;
+  width:100vw;
+  margin-top: 1rem;
+  padding-left:5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+}
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  // border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 2vh;
+  width: 12vw;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 10;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-top: 1px solid gray;
+}

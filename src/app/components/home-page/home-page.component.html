@@ -1,0 +1,95 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!-- The top header containing menu items -->
+
+<div appStickyHeader class="row mx-0 p-1"
+    style="background-color: white; box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);;z-index: 5px;">
+    <div class="col-md-2 nav-head" (click)="scrollToMainPage()">
+        <h3 class="mt-3 menu-item">Shravya Kasturi</h3>
+    </div>
+    <div class="col-md-7 "></div>
+    <div class="col-md-1 nav-head" (click)="onTabClick('#workSectionMine')">
+        <h3 class="mt-3 menu-item">Work</h3>
+    </div>
+    <div class="col-md-1 nav-head">
+        <h3 class="mt-3 menu-item">Projects</h3>
+    </div>
+    <div class="col-md-1 nav-head">
+        <h3 class="mt-3 menu-item">About</h3>
+    </div>
+</div>
+
+<!-- main sections containing image and title -->
+
+<section id="mainSectionMineOnly" #mainSectionMine style="height: 100vh;display: flex;"
+    class="main-section px-0 py-0 mx-0 my-0">
+    <div class="px-5 py-5 mt-5" style="display: flow-root;margin-top: 12rem;">
+        <label class="name-text">Hey! I'm</label><br>
+        <label class="name-text" style="font-size: 3rem;
+     font-weight: bold; color: rgb(130,133,215);">Shravya Kasturi
+        </label>
+        <h1 class="name-text" style="text-align: left; 
+    font-size: 2rem;
+    font-weight: normal;">I am
+            <span style="font-size: 2.5rem;color: rgb(130,133,215);font-style: italic;font-weight: normal;"
+                class="txt-rotate" data-period="2000"
+                data-rotate='[ "Confident.", "Simple.", "Nerdy.", "Fun!", "Curious.","Strong"]'></span>
+        </h1>
+    </div>
+
+</section>
+
+<!-- this below section contains the work experience -->
+
+<section id="workSectionMine" style="overflow-x: hidden;" class="work-section px-0 py-0 mx-0 my-0">
+    <h1 class="work-experience fancy"><span> Work Experience So
+            Far </span></h1>
+    <div class="row" style="align-items:flex-start;overflow-x: hidden;padding-top: 3rem;padding-bottom: 1rem;">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-2">
+            <img src="../../../assets/inncircles.png" style="overflow-x: hidden; border-radius: 25px;margin-top: 2rem;"
+                alt="Cinque Terre" width="200vw" height="160vh">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-8">
+            <h3 style="color:white;text-align: left;"> <a href="https://www.inncircles.com"
+                    style="text-decoration: none;color: white;">Inncircles</a> 🚀</h3>
+            <h5 style="color: yellowgreen;text-align: left;">Product Developer & MEAN Stack Developer, <span
+                    style="font-style: italic;">Since June 2019</span></h5>
+            <p style="color: white;text-align:left;font-weight: 100;">Working on CRM module for managing the flat sales
+                for various Construction companies. Mongo DB is used for storing the data,
+                Angular for front-end and express and NodeJS for backend. My team and I make sure that the UI/UX is
+                intuitive and simple to understand.<br>
+                <br>Also working on mobile application in React Native using Expo. I worked on some interesting use cases
+                like 'retrieving information from excel sheet', 'downloading pdfs from mobile app' among other things.
+                Writing re-usuable and robust code is number one on our check list.</p>
+        </div>
+    </div>
+<hr/>
+    <div class="row py-3" style="align-items:flex-start;overflow-x: hidden;">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-2">
+            <img src="../../../assets/OCI.jpg" style="overflow-x: hidden; border-radius: 25px;margin-top: 2rem;"
+                alt="Cinque Terre" width="200vw" height="160vh">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-8">
+            <h3 style="color:white;text-align: left;"> <a href="https://www.inncircles.com"
+                    style="text-decoration: none;color: white;">Oracle Cloud Infrastructure</a> ☁️</h3>
+            <h5 style="color: yellowgreen;text-align: left;">Project Intern, <span
+                    style="font-style: italic;">Jan 2019 - June 2019</span></h5>
+            <p style="color: white;text-align:left;font-weight: 100;">Working on CRM module for managing the flat sales
+                for various Construction companies. Mongo DB is used for storing the data,
+                Angular for front-end and express and NodeJS for backend. My team and I make sure that the UI/UX is
+                intuitive and simple to understand.<br>
+                <br>Also working on mobile application in React Native using Expo.I worked on some interesting use cases
+                like 'retrieving information from excel sheet', 'downloading pdfs from mobile app' among other things.
+                Writing re-usuable and robust code is number one on our check list.</p>
+        </div>
+    </div>
+
+</section>
