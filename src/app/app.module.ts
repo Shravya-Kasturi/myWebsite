@@ -19,7 +19,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
     AppRoutingModule,
     NgxPageScrollCoreModule,
     NgxPageScrollModule,
-    NgbModule.forRoot()
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
