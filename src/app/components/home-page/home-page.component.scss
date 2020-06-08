@@ -99,6 +99,23 @@
   padding-top: 5rem;
 }
 
+.project-experience {
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 2rem;
+  font-weight:lighter;
+  color: rgb(26,26,43);;
+  text-align: center;
+  width:100vw;
+  margin-top: 1rem;
+  padding-left:5rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+}
+
+project-section {
+    background-color: rgb(230,230,247);
+}
+
 .fancy {
   line-height: 0.5;
   text-align: center;
@@ -122,6 +139,33 @@
   margin-right: 15px;
 }
 .fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.fancy-project {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy-project span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy-project span:before,
+.fancy-project span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  // border-bottom: 1px solid white;
+  border-top: 1px solid rgb(26,26,43);
+  top: 2vh;
+  width: 12vw;
+}
+.fancy-project span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy-project span:after {
   left: 100%;
   margin-left: 15px;
 }
