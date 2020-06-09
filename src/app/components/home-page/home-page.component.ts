@@ -3,7 +3,7 @@ import { Component, OnInit, Inject, AfterViewInit, ApplicationRef, NgZone,
 import { PageScrollService } from 'ngx-page-scroll-core';
 import { DOCUMENT } from '@angular/common';
 import * as $ from 'jquery';
-
+import { NgbCarousel, NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-home-page',
   templateUrl: './home-page.component.html',
@@ -12,6 +12,8 @@ import * as $ from 'jquery';
 export class HomePageComponent implements OnInit {
 
   title = 'myWebsite';
+  baking = ['cake.jpg','idly.jpg','pizza.png','sandwich.jpg','halwa.png']
+  binge = ['b99.jpg','bb.jpg','friends.jpg','got.jpg','young.jpg']
   constructor(private pageScrollService: PageScrollService,
      @Inject(DOCUMENT) private document: any){
 
@@ -37,7 +39,10 @@ export class HomePageComponent implements OnInit {
     console.log("scroll to main page")
     window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
   }
- 
+  
+  getImagePath(folder,word){
+    return 'assets/'+folder+'/'+word
+  }
 }
 
 
